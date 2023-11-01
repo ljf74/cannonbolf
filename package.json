@@ -1,0 +1,21 @@
+{
+  "name": "js13k2022",
+  "private": true,
+  "scripts": {
+    "search": "node build.js --search",
+    "debug": "node build.js --debug",
+    "editor": "node build.js --editor",
+    "start": "node build.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "3.0.0",
+    "advzip-bin": "2.0.0",
+    "google-closure-compiler": "^20220719.0.0",
+    "regpack": "Siorki/RegPack#v5.0.3",
+    "roadroller": "2.1.0",
+    "rollup": "2.56.3",
+    "shelljs": "^0.8.5",
+    "terser": "^5.14.2",
+    "typescript": "4.4.2"
+  }
+}
